@@ -1,4 +1,4 @@
-# Week 03 – Lab 05
+# Week 01 – Lab 05
 
 # Finite State Machine (FSM) Design Using Verilog HDL
 
