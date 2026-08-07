@@ -34,11 +34,11 @@ endmodule
 
 ------------------------------------------------------------------------------
 
-Design the gate level model of 4  1 Mux using Verilog HDL shown in Figure 2,
+Design the gate level model of 4*1 Mux using Verilog HDL shown in Figure ,
 and simulate with at least 4 random input combinations of data and control inputs.
 Record your random combinations and possible value for the output “out” .
 
-## Verilog Code:
+## Verilog Code for 4*1 Mux:
 module mux4_1(input i0,i1,i2,i3,input s1,s0,  output out);
 
 wire s1n,s0n;
@@ -55,4 +55,30 @@ or g7(out,y0,y1,y2,y3);
 endmodule
 
 --------------------------------------------------------------------------------
+
+Design gate level model of a 2*4 Decoder with Enable as shown in the Figure ,
+and simulate with 4 random input combinations of data and control inputs.
+Record your random combinations and possible value for the outputs
+
+## Verilog Code for 2*4 Decoder: 
+module dec2_4(input EN,input A1,A0, output D0,D1,D2,D3);
+
+wire A1n, A0n;
+wire w0, w1, w2, w3;
+
+
+not g1(A1n, A1);
+not g2(A0n, A0);
+
+and g3(w0, A1n, A0n);
+and g4(w1, A1n, A0);
+and g5(w2, A1,  A0n);
+and g6(w3, A1,  A0);
+
+and g7(D0, EN, w0);
+and g8(D1, EN, w1);
+and g9(D2, EN, w2);
+and g10(D3, EN, w3);
+
+endmodule
 
