@@ -1,7 +1,7 @@
    ## Testbench Codes of Lab 2.
----------------------------------------
+=========================================================================
 
-## Testbench Code for Half Adder:
+1. ## Testbench Code for Half Adder: Part (a)
 
 module half_adder_tb();
  reg A,B;
@@ -28,8 +28,8 @@ B=1;
 end
 endmodule
 
-------------------------------------------------------------
-## Tectbench Code for Full Adder :
+=========================================================================
+1. ## Tectbench Code for Full Adder : Part (b)
 
 module tb_full_adder;
     reg A, B, Cin;
@@ -71,9 +71,9 @@ module tb_full_adder;
     end
 endmodule
 
----------------------------------------------------------------------------
+=========================================================================
 
-## Testbench code for 2*1 Mux :
+2. ## Testbench code for 2*1 Mux : Part (a)
 
 module mux2_1_tb();
 
@@ -127,9 +127,9 @@ initial begin
 end
 endmodule
 
-------------------------------------------------------------------------
+=========================================================================
 
-## Testbench Code for 4*1 Mux:
+2. ## Testbench Code for 4*1 Mux: Part (b)
 
 module mux4_1_tb();
 
@@ -183,9 +183,9 @@ initial begin
 end
 endmodule
 
-----------------------------------------------------------------------------
+=========================================================================
 
-## Testbench code for 3*8 Decoder:
+3. ## Testbench code for 3*8 Decoder:
 
 module decoder3_8_tb();
     reg a0, a1, a2, en;
@@ -235,9 +235,9 @@ module decoder3_8_tb();
     end
 endmodule
 
-----------------------------------------------------------------------------------
+=========================================================================
 
-## Testbench Code for 16 bit Adder :
+4. ## Testbench Code for 16 bit Adder :
 module adder16_tb();
 
 reg  [15:0] A;
@@ -274,4 +274,4 @@ begin
 end
 endmodule
 
------------------------------------------------------------------
+=========================================================================
