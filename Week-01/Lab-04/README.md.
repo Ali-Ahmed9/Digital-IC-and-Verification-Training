@@ -1,0 +1,130 @@
+# Week 01 – Lab 04
+
+# Behavioral Modeling Using Verilog HDL
+
+---
+
+## 📖 Overview
+
+This lab introduces **Behavioral Modeling** in Verilog HDL for designing both combinational and sequential digital circuits. It focuses on procedural blocks (`always`, `initial`), blocking and non-blocking assignments, timing control, and sequential circuit design.
+
+---
+
+## 🎯 Objectives
+
+- Understand Behavioral Modeling in Verilog HDL.
+- Learn procedural constructs (`always` and `initial` blocks).
+- Differentiate between blocking (`=`) and non-blocking (`<=`) assignments.
+- Understand timing control mechanisms.
+- Design combinational and sequential circuits.
+- Analyze simulation behavior using behavioral constructs.
+
+---
+
+# 📝 Lab Tasks
+
+## Task 1 – 32-bit Arithmetic Logic Unit (ALU)
+
+Designed a **32-bit ALU** implementing four operations controlled by a 2-bit opcode.
+
+### Inputs
+
+- A (32-bit)
+- B (32-bit)
+- Cin
+- Opcode (2-bit)
+
+## Output
+
+- Output (64-bit)
+
+Each ALU operation was verified using random test vectors.
+
+---
+
+## Task 2 – Negative Edge Triggered D Flip-Flop
+
+Designed a **negative edge-triggered D Flip-Flop** featuring:
+
+- Clock Enable
+- Active-Low Asynchronous Set
+- Active-Low Asynchronous Reset
+- Q Output
+- Q̅ (Complement Output)
+
+---
+
+## Task 3 – Counter Behavior Analysis
+
+Simulated the provided Verilog code to analyze whether it correctly displays:
+
+2 → 3 → 4
+
+The simulation results and behavioral explanation are included.
+
+---
+
+## Task 4 – Clock Generator
+
+Designed a clock generator with:
+
+- Period = 20 ns
+- Duty Cycle = 25%
+- Initial Clock Value = 0
+
+Implemented using `always` and `initial` blocks.
+
+---
+
+## Task 5 – Sequential Average Calculator
+
+Designed a sequential circuit that computes the average of three 6-bit input streams.
+
+Pipeline Stages:
+
+1. Add A + B
+2. Add stored value of C
+3. Divide result by 3
+
+---
+
+# 📂 Repository Structure
+
+```text
+01_Source_Code/
+02_Testbenches/
+03_Simulation_Results/
+04_Block_Diagrams/
+05_Documents/
+06_Analysis/
+```
+
+---
+
+# 🛠️ Tools Used
+
+- Verilog HDL
+- Vivado Design Suite
+- Behavioral Modeling
+
+---
+
+# 📚 Key Concepts Learned
+
+- Behavioral Modeling
+- Procedural Blocks
+- Always Block
+- Initial Block
+- Blocking Assignment
+- Non-Blocking Assignment
+- Timing Control
+- Sequential Logic
+- Flip-Flops
+- ALU Design
+
+---
+
+# 👨‍💻 Author
+
+**Ali Ahmed**
+
