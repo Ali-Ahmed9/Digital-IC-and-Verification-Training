@@ -1,5 +1,5 @@
 Lab Tasks: You can only use Gate-Level Modeling in this Lab.
-------------------------------------------------------------------
+=========================================================================
 
 Design four-input OR, XOR and XNOR gates using 2 input primitive gates.
 Simulate each circuit with at least 4 random inputs
@@ -16,7 +16,7 @@ or g3(Y,w1,w2);
 
 endmodule
 
---------------------------------------------------------------------------
+=========================================================================
 
 Simulate the design given in Figure 1 using gate level modeling with the following inputs A, B, C, and D.
 Simulate each circuit with at least four random inputs and record them.
@@ -32,8 +32,7 @@ or  g2(Y,C,D);
 xor g3(Z,X,Y);
 endmodule
 
-------------------------------------------------------------------------------
-
+=========================================================================
 Design the gate level model of 4*1 Mux using Verilog HDL shown in Figure ,
 and simulate with at least 4 random input combinations of data and control inputs.
 Record your random combinations and possible value for the output “out” .
@@ -54,7 +53,7 @@ or g7(out,y0,y1,y2,y3);
 
 endmodule
 
---------------------------------------------------------------------------------
+=========================================================================
 
 Design gate level model of a 2*4 Decoder with Enable as shown in the Figure ,
 and simulate with 4 random input combinations of data and control inputs.
@@ -82,4 +81,4 @@ and g10(D3, EN, w3);
 
 endmodule
 
------------------------------------------------------------------
+=========================================================================
