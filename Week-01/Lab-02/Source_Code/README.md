@@ -1,5 +1,5 @@
 Lab Tasks: You can only use Gate-Level Modeling in this Lab.
------------------------------------------------------------------------------------------------
+=========================================================================
 
 1.	[In-Lab Task] Design a half adder using gate-level modeling.
    a.	Verify the truth table in Vivado simulator
@@ -15,7 +15,7 @@ and g2 (C,A,B);
 endmodule
 
 F
---------------------------------------------------------------------------------------
+=========================================================================
 
 b.	Design a full adder using two half adders using hierarchical modeling
 and other primitive logic (if required). Verify the following truth table in Vivado simulator.
@@ -35,7 +35,7 @@ wire S1, C1, C2;
     or g3 (Cout, C1, C2);
 endmodule
 
------------------------------------------------------------------------------------------
+=========================================================================
 
 2.	[In-Lab Task] Design a 2×1 multiplexers using gate-level modeling.
    a.	Verify the following truth table in Vivado simulator (no need to upload the simulation).
@@ -52,7 +52,7 @@ and g2 (w2,i2,s);
 or g3 (y,w1,w2);
 endmodule
 
--------------------------------------------------------------------------------------------
+=========================================================================
 
 b.	Design and simulate 4×1 multiplexer using 2×1 multiplexers shown in Figure 4 and
 simulate with at least 4 random input combinations of data and control inputs. 
@@ -72,7 +72,7 @@ module mux4_1( input i1,i2,i3,i4,s1,s2, output out);
 endmodule
 
 
-----------------------------------------------------------------------------------------------
+=========================================================================
 
 3.	[In-Lab Task] Design and simulate a 3×8 Decoder with Enable shown in Figure 5
 	 using the 1×2 decoder as shown in Figure 6 and the 2×4 decoders created in DSD Lab-2.
@@ -117,7 +117,7 @@ decoder2_4 dec2 (.a0(a0), .a1(a1), .en(w1), .d0(d0), .d1(d1),  .d2(d2),.d3(d3));
 decoder2_4 dec3 (.a0(a0),.a1(a1), .en(w2), .d0(d4), .d1(d5),.d2(d6),.d3(d7));  
 endmodule
 
------------------------------------------------------------------------------------------
+=========================================================================
 
 4.	[In-Lab Task] Design and stimulate 16-bit adder using full adder module designed in Task-1(b).
  The adder takes 16-bit Inputs A and B and a Carry-In input and generates 16-bit output S
@@ -163,5 +163,5 @@ adder4 ADD3(.A(A[15:12]),.B(B[15:12]),.Cin(C3),.Sum(Sum[15:12]),.Cout(Cout));
     
 endmodule
 
-----------------------------------------------------------------------------------------
+=========================================================================
 
