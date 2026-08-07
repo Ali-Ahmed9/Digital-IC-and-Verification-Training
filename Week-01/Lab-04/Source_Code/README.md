@@ -1,10 +1,10 @@
 Source Code of lab 4:
---------------------------------------------------------------------------
+=========================================================================
 
 NOTE: Use procedural assignments (behavioral modeling), 
 except where hierarchical design is needed (for example a top-level module).
 
------------------------------------------------------------------------------
+=========================================================================
 
 1.	Design an Arithmetic and Logic Unit (ALU) that implements 4 functions as described in Table 1.
 The table also illustrates the encoding of the control input.
@@ -55,7 +55,7 @@ end
 
 endmodule
 
---------------------------------------------------------------------------------------
+=========================================================================
 
 2.	 Design a negative edge-triggered D flip-flop with clock enable, active-low asynchronous set and reset,
    and both active-high and active-low outputs. It is illegal for both set and reset inputs to be active together.
@@ -97,7 +97,7 @@ end
 
 endmodule
 
------------------------------------------------------------------------------------------------
+=========================================================================
 
 3.	 The aim of the Verilog code, given in front, is to display 2, 3 and 4 in three consecutive clock cycles.
 Do you think, this code is doing so or not?
@@ -158,7 +158,7 @@ end
 endmodule
 
 
------------------------------------------------------------------------------------------
+=========================================================================
 
 4.	 Design a clock with time-period = 20ns and a duty cycle of 25% by using always and initial statements.
 The value of clock at time=0 (simulation start) should be initialized to 0.
@@ -182,7 +182,7 @@ end
 endmodule
 
 
---------------------------------------------------------------------------------------
+=========================================================================
 
 5.	 Design a Verilog model for a sequential circuit that computes the average of corresponding values,
  in three streams of input values, a, b, and c. The sequential circuit consists of three stages:
@@ -209,5 +209,5 @@ end
 
 endmodule
 
----------------------------------------------------------------------------------------
+=========================================================================
 
