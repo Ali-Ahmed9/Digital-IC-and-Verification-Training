@@ -57,8 +57,9 @@ Covered the fundamentals of computer architecture and RISC-V, including:
 - [Part-01](./Part-01/) — SystemVerilog Fundamentals
 - [Part-02](./Part-02/) — Advanced Computer Architecture & RISC-V
 
----
+==========================================================
 
-**Training:** Digital IC Design & Verification  
-**Week:** 02  
-**Status:** ✅ Completed
+## Training: Digital IC Design & Verification  
+## Week: 02  
+
+==========================================================
