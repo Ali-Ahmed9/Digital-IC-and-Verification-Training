@@ -10,7 +10,7 @@ generate constructs, procedural blocks, event control, and assignment behavior.
 
 The main goal is to build a strong foundation for writing **clean, reusable, and synthesizable RTL code**.
 
----
+=============================================================
 
 ## 📚 Topics Covered
 
@@ -64,6 +64,7 @@ Learned basic SystemVerilog simulation constructs used to observe and control si
 
 Declare Signals → Instantiate DUT → Apply Inputs → Check Outputs → Finish
 
+=============================================================
 
 ### 2. Parameterised Modules & Generics
 
@@ -110,7 +111,7 @@ Covered:
 
 Generate constructs are especially useful when designing **parameterised and scalable hardware**.
 
----
+=============================================================
 
 ### 3. Procedural Blocks & Event Control
 
@@ -141,6 +142,8 @@ Covered:
 - Timing controls
 - `forever` loops
 
+=============================================================
+
 #### Blocking vs Non-Blocking Assignments
 
 Studied the difference between:
@@ -165,7 +168,7 @@ Also explored:
 - Vivado lint
 - Synthesis implications
 
----
+=============================================================
 
 ## 🎯 Key Learning Outcomes
 
@@ -183,7 +186,7 @@ After completing this portion, I developed an understanding of:
 - Blocking and non-blocking assignments
 - Basic RTL coding best practices
 
----
+=============================================================
 
 ## 🛠️ Tools & Technologies
 
@@ -192,6 +195,7 @@ After completing this portion, I developed an understanding of:
 - Xilinx Vivado
 - RTL Simulation
 
+=============================================================
 
 ## Week: 02 [Day: 1,2,3]  
 ## Portion: 01  
