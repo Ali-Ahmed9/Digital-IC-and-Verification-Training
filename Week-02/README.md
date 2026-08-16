@@ -17,7 +17,7 @@ Covered the foundations of SystemVerilog, including:
 - Continuous assignments and operators
 - Testbench and simulation concepts
 - Parameterised modules and generics
-- `$clog2`, packages, and generate constructs
+- Packages, and generate constructs
 - Procedural blocks and event control
 - Blocking vs non-blocking assignments
 
@@ -40,6 +40,8 @@ Covered the fundamentals of computer architecture and RISC-V, including:
 - Single-cycle and Multi-cycle processors
 - IF, ID, EX, MEM and WB execution stages
 
+==========================================================
+
 ##  Tools & Technologies
 
 - SystemVerilog
@@ -47,6 +49,8 @@ Covered the fundamentals of computer architecture and RISC-V, including:
 - RISC-V
 - Xilinx Vivado
 - RTL Simulation
+
+==========================================================
 
 ##  Week Structure
 
