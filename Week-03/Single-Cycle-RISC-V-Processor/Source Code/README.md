@@ -7,7 +7,7 @@
 ## Block Diagram:
 <img width="915" height="225" alt="image" src="https://github.com/user-attachments/assets/eaa93cc7-f427-4a18-87d1-49e28e38d5bf" />
 
-## Verilog Code:
+## SystemVerilog Code:
 
 module programCounter (input  logic clk,reset,input  logic [31:0] next_pc,    output logic [31:0] pc_out);
     always_ff @(posedge clk or posedge reset)
@@ -23,7 +23,7 @@ endmodule
 
 2. ## Instruction Memory
 
-## Block Diagram:
+## SystemBlock Diagram:
 <img width="975" height="225" alt="image" src="https://github.com/user-attachments/assets/9519a6ae-8b11-495f-863e-3b85b404baa2" />
 
 ## Verilog Code:
@@ -98,7 +98,7 @@ endmodule
 ## Block Diagram:
 <img width="945" height="350" alt="image" src="https://github.com/user-attachments/assets/19e2ea99-5496-4ea4-961a-049baa676691" />
 
-# Verilog Code:
+# SystemVerilog Code:
 
 module registerFile(input  logic clk,regWrite,input  logic [4:0]  rs1,rs2,rd,
 
@@ -133,7 +133,7 @@ endmodule
 ## Block Diagram:
 <img width="945" height="350" alt="image" src="https://github.com/user-attachments/assets/784c6f44-4b5d-44bc-a2dc-f4b8904fb431" />
 
-## Verilog Code:
+## SystemVerilog Code:
 
 module immediateGenerator(input  logic [31:0] instruction,output logic [31:0] immediate);
 
@@ -188,7 +188,7 @@ endmodule
 ## Block Diagram:
 <img width="945" height="350" alt="image" src="https://github.com/user-attachments/assets/e11b14a1-887a-4b11-9b8d-831cf0c1c546" />
 
-## Verilog Code:
+## SystemVerilog Code:
 
 module alu( input  logic [31:0] operandA,operandB,input  logic [3:0]  aluControl,
     output logic [31:0] result, output logic zero);
@@ -231,7 +231,7 @@ endmodule
 ## Block Diagram:
 <img width="945" height="448" alt="image" src="https://github.com/user-attachments/assets/395b9a12-d1be-4ca0-8f3a-f351fda0c653" />
 
-## Verilog Code:
+## SystemVerilog Code:
 
 module controlUnit(input  logic [6:0] opcode, output logic branch, memRead,memtoReg,
     output logic [1:0] aluOp,output logic memWrite,aluSrc,regWrite);
@@ -302,7 +302,7 @@ endmodule
 ## Block Diagram:
 <img width="945" height="399" alt="image" src="https://github.com/user-attachments/assets/6e5ae675-6e2c-4a82-9298-73df92658ee3" />
 
-## Verilog Code:
+## SystemVerilog Code:
 
 module dataMemory (input  logic clk,memRead,memWrite, input  logic [31:0] address,writeData,output logic [31:0] readData);
 
@@ -336,7 +336,7 @@ endmodule
 ## Block Daigram:
 <img width="945" height="350" alt="image" src="https://github.com/user-attachments/assets/0cbab4a6-11df-4f21-abc2-5374dd322bca" />
 
-## Verilog Code:
+## SystemVerilog Code:
 
 module mux2x1(input  logic [31:0] in0,in1, input  logic sel,output logic [31:0] out);
 
@@ -357,7 +357,7 @@ endmodule
 ## Block Diagram:
 <img width="945" height="350" alt="image" src="https://github.com/user-attachments/assets/de629f68-af5c-489c-a6d7-8fc692307865" />
 
-## Verilog Code:
+## SystemVerilog Code:
 
 module aluControl (input logic [1:0] aluOp,input logic [2:0] funct3,input logic funct7, output logic [3:0] aluControl);
 
@@ -415,7 +415,7 @@ endmodule
 
 10. ## Shiftleft1
 
-## Veilog Code:
+## SystemVeilog Code:
 module shiftLeft1( input  logic [31:0] in, output logic [31:0] out);
 
     assign out = in << 1;
@@ -429,7 +429,7 @@ endmodule
 ## Block Daigram:
 <img width="945" height="251" alt="image" src="https://github.com/user-attachments/assets/a75e5507-f64a-4dc1-a4b8-3a6234226c90" />
 
-## Verilog Code:
+## SystemVerilog Code:
 
 module adder ( input  logic [31:0] a,b,output logic [31:0] sum);
     assign sum = a + b;
