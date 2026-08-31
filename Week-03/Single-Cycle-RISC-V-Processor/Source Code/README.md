@@ -1,5 +1,7 @@
 ## Design and Verification of Single Cycle RISC–V Component
 
+=========================================================
+
 1. ## Program Counter
 
 ## Block Diagram:
@@ -17,11 +19,12 @@ module programCounter (input  logic clk,reset,input  logic [31:0] next_pc,    ou
     end
 endmodule
 
+=========================================================
+
 2. ## Instruction Memory
 
 ## Block Diagram:
 <img width="975" height="225" alt="image" src="https://github.com/user-attachments/assets/9519a6ae-8b11-495f-863e-3b85b404baa2" />
-
 
 ## Verilog Code:
 
@@ -88,13 +91,12 @@ module instructionMemory( input  logic [31:0] pc_out, output logic [31:0] inst);
 
 endmodule
 
-
+=========================================================
 
 3. ## Register File
 
 ## Block Diagram:
 <img width="945" height="350" alt="image" src="https://github.com/user-attachments/assets/19e2ea99-5496-4ea4-961a-049baa676691" />
-
 
 # Verilog Code:
 
@@ -124,13 +126,12 @@ module registerFile(input  logic clk,regWrite,input  logic [4:0]  rs1,rs2,rd,
 
 endmodule
 
-
+=========================================================
 
 4. ## Immediate Generator
 
 ## Block Diagram:
 <img width="945" height="350" alt="image" src="https://github.com/user-attachments/assets/784c6f44-4b5d-44bc-a2dc-f4b8904fb431" />
-
 
 ## Verilog Code:
 
@@ -180,7 +181,7 @@ module immediateGenerator(input  logic [31:0] instruction,output logic [31:0] im
 
 endmodule
 
-
+=========================================================
 
 5. ## ALU / Execute Unit
 
@@ -223,7 +224,7 @@ module alu( input  logic [31:0] operandA,operandB,input  logic [3:0]  aluControl
 
 endmodule
 
-
+=========================================================
 
 6. ## Control Unit
 
@@ -294,8 +295,7 @@ module controlUnit(input  logic [6:0] opcode, output logic branch, memRead,memto
 
 endmodule
 
-
-
+=========================================================
 
 7. ## Data Memory
 
@@ -329,7 +329,7 @@ module dataMemory (input  logic clk,memRead,memWrite, input  logic [31:0] addres
 
 endmodule
 
-
+=========================================================
 
 8. ## Multiplexer (2*1)
 
@@ -350,6 +350,7 @@ module mux2x1(input  logic [31:0] in0,in1, input  logic sel,output logic [31:0] 
 
 endmodule
 
+=========================================================
 
 9. ## Alu Control Unit
 
@@ -410,7 +411,7 @@ module aluControl (input logic [1:0] aluOp,input logic [2:0] funct3,input logic 
 
 endmodule
 
-
+=========================================================
 
 10. ## Shiftleft1
 
@@ -421,6 +422,7 @@ module shiftLeft1( input  logic [31:0] in, output logic [31:0] out);
 
 endmodule
 
+=========================================================
 
 11. ## Branch Adder
 
@@ -433,3 +435,6 @@ module adder ( input  logic [31:0] a,b,output logic [31:0] sum);
     assign sum = a + b;
 
 endmodule
+
+=========================================================
+
