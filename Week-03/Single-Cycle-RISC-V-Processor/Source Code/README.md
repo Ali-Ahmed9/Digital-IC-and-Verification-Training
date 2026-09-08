@@ -26,7 +26,7 @@ endmodule
 ## SystemBlock Diagram:
 <img width="975" height="225" alt="image" src="https://github.com/user-attachments/assets/9519a6ae-8b11-495f-863e-3b85b404baa2" />
 
-## Verilog Code:
+## System Verilog Code:
 
 module instructionMemory( input  logic [31:0] pc_out, output logic [31:0] inst);
 
