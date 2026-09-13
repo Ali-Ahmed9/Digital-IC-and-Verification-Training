@@ -18,15 +18,16 @@ This week covers the fundamental principles of memory hierarchy, the organizatio
     *   **Spatial Locality:** If a location is referenced, nearby locations are likely to be referenced soon (e.g., arrays).
 
 ### Terminology
-| Term | Definition |
-| :--- | :--- |
-| **Hit** | Data is found in the current cache level. |
-| **Miss** | Data is not found; must retrieve from lower level. |
-| **Hit Rate** | Fraction of accesses found in cache (Hits / Total Accesses). |
-| **Miss Rate** | 1 - Hit Rate. |
-| **Miss Penalty** | Time to replace a block in upper level + Time to deliver to processor. |
-| **Valid Bit** | Indicates if the cache slot holds valid program data. |
-| **Dirty Bit** | Indicates if a line has been modified in cache (needs write-back). |
+
+| Term             |             Definition |
+
+| **Hit**          |             Data is found in the current cache level. |
+| **Miss**         |             Data is not found; must retrieve from lower level. |
+| **Hit Rate**     |             Fraction of accesses found in cache (Hits / Total Accesses). |
+| **Miss Rate**    |             1 - Hit Rate. |
+| **Miss Penalty** |             Time to replace a block in upper level + Time to deliver to processor. |
+| **Valid Bit**    |             Indicates if the cache slot holds valid program data. |
+| **Dirty Bit**    |             Indicates if a line has been modified in cache (needs write-back). |
 
 ======================================================
 
@@ -117,11 +118,11 @@ What happens when the CPU writes data?
 4.  **Coherence (Invalidation):** Another processor/I/O device updates memory. (Solution: Snooping protocols).
 
 ### Design Trade-offs (At Constant Cost)
-| Cache Type | Size | Compulsory Miss | Conflict Miss | Capacity Miss |
-| :--- | :--- | :--- | :--- | :--- |
-| **Direct Mapped** | Big | Same | High | Low |
-| **N-Way Set Assoc** | Medium | Same | Medium | Medium |
-| **Fully Associative** | Small | Same | Zero | High |
+| Cache Type            | Size   | Compulsory Miss | Conflict Miss | Capacity Miss |
+
+| **Direct Mapped**     | Big    | Same            | High          | Low           |
+| **N-Way Set Assoc**   | Medium | Same            | Medium        | Medium        |
+| **Fully Associative** | Small  | Same            | Zero          | High          |
 
 ======================================================
 
