@@ -3,7 +3,7 @@ Hands-on Verilog lab focused on implementing and simulating half-adder and full-
 with an introduction to the simulator and basic digital design verification.
 
 ## Lab 01
-[INSPIRE_Digital IC_FE_LAB_1.pdf](https://github.com/user-attachments/files/33930223/INSPIRE_Digital.IC_FE_LAB_1.pdf)
+[Lab 1sol.pdf](https://github.com/user-attachments/files/33930265/Lab.1sol.pdf)
 
 ## Lab 02
-[INSPIRE_Digital_IC_FE_LAB_2.pdf](https://github.com/user-attachments/files/33930235/INSPIRE_Digital_IC_FE_LAB_2.pdf)
+[Lab N0 2 sol.pdf](https://github.com/user-attachments/files/33930278/Lab.N0.2.sol.pdf)
