@@ -1,11 +1,14 @@
 # Lab 04 — UART Synthesis and Debug
 ======================================================
+
 ## Aim
 
 - To synthesize UART Verilog HDL code using Cadence tools
 - Generate a netlist
 - Write clock constraints
+  
 ======================================================
+
 ## Objectives
 
 - Understand the working principle of UART communication.
@@ -15,7 +18,9 @@
 - Synthesize Verilog code using Cadence Genus.
 - Generate the synthesized netlist.
 - Run and verify the netlist using Incisive.
+  
 ======================================================
+
 ## Workflow
 
 1. Understand the UART RTL design.
@@ -25,6 +30,7 @@
 5. Define clock constraints using SDC.
 6. Synthesize the design using Genus.
 7. Generate and simulate the gate-level netlist.
+   
 ======================================================
 
 
