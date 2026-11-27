@@ -26,3 +26,7 @@
 6. Synthesize the design using Genus.
 7. Generate and simulate the gate-level netlist.
 ======================================================
+
+
+
+[LAB 4 sol.pdf](https://github.com/user-attachments/files/35525281/LAB.4.sol.pdf)
